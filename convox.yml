@@ -2,3 +2,4 @@ services:
   web:
     image: python:3-alpine
     command: python -m http.server
+    port: 8000
